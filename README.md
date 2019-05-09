@@ -1,4 +1,4 @@
-# Deploying zappa on aws for deploying serverless app (flask)
+# Deploying a serverless microservice using zappa on AWS EC2 using flask framework
 
 ## Install aws cmdline on ec2
 
@@ -10,7 +10,8 @@ $ conda install -c conda-forge awscli
 ```
 $ aws configure
 ```
-> ***add your aws access key and secret access keys***
+> ***add your aws access key and secret access keys*** 
+
 > ***can view the keys deatail, cd ~/.aws ***
 
 
@@ -68,7 +69,7 @@ $ zappa -h
 ## Additional resources on zappa
 ### [Resource 1](https://hackernoon.com/deploy-a-serverless-flask-application-on-aws-lambda-d8ca58af42a4)
 ### [Resource 2](https://medium.com/@patrickmichelberger/how-to-deploy-a-serverless-machine-learning-microservice-with-aws-lambda-aws-api-gateway-and-d5b8cbead846)
-### [Resource 3* ](https://github.com/Miserlou/Zappa/issues/1471#issuecomment-381437537)n
+### [Resource 3* ](https://github.com/Miserlou/Zappa/issues/1471#issuecomment-381437537)
 
 
 
